@@ -1,0 +1,104 @@
+#container
+{
+	margin: 0pt auto;
+	width: 770px;
+	position: relative;
+}
+#content
+{
+		background-color: red;
+		clear: both;
+		margin-top: 5px;
+		width: 770px;
+}
+
+
+#top
+{
+	background-color: green;
+	height: 50px;
+}
+#top p
+{
+	margin: 0pt;
+	padding: 0pt;
+}
+#header
+{
+	background-color: blue;
+	height: 150px;
+	margin-top: 5px;
+}
+#menu
+{
+	position: absolute;
+	top: 180px;
+	left: 15px;
+}
+#header h1
+{
+	margin: 5px 0pt 0pt 5px;
+	padding: 0pt;
+	font-size: 1.7em;
+}
+#header h2
+{
+	margin: 10px 0pt 0pt 90px;
+	padding: 0pt;
+	font-size: 1.2em;
+	color: rgb(223,139,139);
+}
+ul#menu
+{
+	margin: 0pt;
+}
+#menu li
+{
+	list-style-type: none;
+	float: left;
+	text-align: center;
+	width: 104px;
+	margin-right: 3px;
+	font-size: 1.05em;
+}
+#menu a
+{
+	background-color: yellow;
+	overflow: hidden;
+	display: block;
+	height: 28px;
+	padding-top: 3px;
+	text-decoration: none;
+	font-size: 1em;
+	font-family: Verdana,"Geneva CE",lucida,sans-serif;
+	color: rgb(255,255,255);
+}
+#menu li>a,#menu li>strong
+{
+	width: auto;
+}
+#menu a.actual
+{
+	background-image: url();
+	color: rgb(149,32,32);
+}
+#menu a:hover
+{
+	color: rgb(149,32,32);
+}
+
+#text
+{
+	background-color: rgb(255,255,255);
+	width: 518px;
+	color: rgb(0,0,0);
+	float: left;
+}
+#text h1,#text h2,#text h3,#text h4
+{
+	color: rgb(140,9,9);
+}
+#text h3.headlines a
+{
+	color: rgb(140,9,9);
+}
